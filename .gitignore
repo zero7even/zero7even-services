@@ -1,0 +1,17 @@
+# Luanti runtime/test artifacts
+worlds/
+cache/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.local.conf
+secrets/
